@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Rocket</title>
+  <desc id="desc">An orange and dark green rocket</desc>
+  <path fill="#f37b54" d="M42.9 7.1C34.3 8.5 25.8 14 20.2 21.3l-6.1-.2-6.7 6.7 11.1 2.2 2.2 11.1 6.7-6.7-.2-6.1C34.5 22.7 40 14.1 42.9 7.1Z"/>
+  <path fill="#1f2a27" d="M42.9 7.1c5.5-1 10.2-.2 13.9 3.5 3.7 3.7 4.5 8.4 3.5 13.9-6.8-2.5-12.8-6.5-17.4-11.9Z"/>
+  <circle cx="47.2" cy="16.8" r="3.8" fill="#c5ef74"/>
+  <path fill="#1f2a27" d="m27.4 37.6-1.1 9.1-7.1 7.1-1.8-11.7 3.9-3.9Zm-9.1-9.1-9.1 1.1-7.1 7.1 11.7 1.8 3.9-3.9Z"/>
+  <path fill="#f37b54" d="M22.4 45.3c-1.5 4.7-4.4 8.7-8.6 11.7.1-5.2 1.5-9.7 4.1-13.6Z"/>
+</svg>

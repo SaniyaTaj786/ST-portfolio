@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Loading screen for Saniya Taj portfolio." />
+  <title>Saniya Taj | Loading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="loading-page">
+  <div class="loader">
+    <div class="loader-top">
+      <span>ST</span>
+      <span>Portfolio</span>
+    </div>
+
+    <div class="loader-center">
+      <h1>Learning by <em>building</em>.<br />Creating with <em>purpose</em>.</h1>
+
+      <div class="loader-status">
+        <span>Initializing portfolio</span>
+        <span id="loader-percent">0%</span>
+      </div>
+
+      <div class="loader-track-wrap" aria-label="Loading progress">
+        <div id="loader-rocket" class="loader-rocket" aria-hidden="true">
+          <img src="rocket.svg" alt="Rocket" width="42" height="42" />
+        </div>
+        <div class="loader-track" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" role="progressbar" aria-label="Loading progress">
+          <span id="loader-progress"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="loader-bottom">
+      <span>Ready to launch</span>
+      <span>Loading</span>
+    </div>
+  </div>
+
+  <script src="loading.js"></script>
+</body>
+</html>
